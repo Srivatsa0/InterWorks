@@ -1,0 +1,30 @@
+{
+  "user": [
+    {
+      "firstname": "rohith",
+      "lastname": "sharma",
+      "email": "rohithsharma@gmail.com",
+      "contact": "+918792431948",
+      "adddress1": "mumbai mahrashtra",
+      "address2": "mumbai",
+      "country": "india",
+      "state": "maharashtra",
+      "city": "mumbai",
+      "pincode": "765432",
+      "id": 3
+    },
+    {
+      "firstname": "Anil",
+      "lastname": "Kumar K",
+      "email": "anilkumar@gmail.com",
+      "contact": "+918792431948",
+      "adddress1": "#82 chikkaankandahalli v&p ,Bangarpet taluk , Kolar district",
+      "address2": "Pipal Tree Pg Near National College Basavangudi Bangalore",
+      "country": "india",
+      "state": "karnataka",
+      "city": "Bangalore",
+      "pincode": "563114",
+      "id": 4
+    }
+  ]
+}

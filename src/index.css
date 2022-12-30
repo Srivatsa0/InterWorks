@@ -1,13 +1,183 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  width: 100vw;
+  height: 60px;
+  background-color:  #090909 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+.navbar span{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(243, 237, 237);
+  letter-spacing: 2px;
+}
+.navbar a{
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  background-color: rgb(240, 245, 245);
+  margin: 0px 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.footer{
+  background-color: black ;
+  color: white;
+  height: 120px;
+}
+.footer-logo{
+  height: 30px;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.footer-info{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.footer-info p{
+  font-size: 20px;
+}
+.footer-info span{
+  font-size: 20px;
+  padding: 90px 0px;
+}
+.footer-info b{
+  color: orange;
+}
+.user-info{
+  background-color: rgb(236, 242, 242);
+  width: 650px;
+  height: auto;
+  margin: auto;
+}
+.user-info h2{
+  padding: 15px 0px;
+}
+.user-info form{
+  margin: auto;
+}
+.user-info form label{
+  width: 150px;
+  display: inline-block;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.user-info-main input{
+  width: 300px;
+  height: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.user-country-code{
+  margin-left: 180px;
+}
+.user-country-code p{
+  margin-right: 170px;
+}
+.user-contact{
+  width: 300px;
+  margin-left: 90px;
+}
+.user-submit button{
+  margin-left: 500px;
+  width: 100px; 
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px ;
+}
+.user-submit button:active{
+  background-color: #090909;
+  color: white;
+}
+.user-info p{
+  color: red;
+  text-align: center;
+}
+.user-delete {
+  margin-left: 500px;
+  width: 100px; 
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px ;
+}
+.user-delete:active{
+  background-color: #090909;
+  color: white;
+}
+.app-info{
+  width: 100vw;
+  height: auto;
+  background-color: azure;
+}
+.info-header h2{
+  margin: 10px 0px;
+  letter-spacing: 1px;
+}
+.info-details h2{
+  letter-spacing: 1px;
+  margin: 10px 0px ;
+}
+.info-details p{
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.info-details li{
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.info-details ol{
+  padding: 0px 45px;
+}
+.app-routing ol{
+  padding: 0px 45px;
+}
+.app-note {
+  width: 100vw;
+  border: 2px solid black;
+}
+.app-note h4{
+  font-size: 30px;
+  padding: 5px 5px;
+}
+.json-run{
+  text-align: center;
+  margin: 5px 0px;
+}
+.userlist-header h2{
+  margin: 10px 0px;
+  letter-spacing: 1px;
+}
+.userlist-table table{
+  margin: 20px 10px;
+  border-collapse: collapse;
+}
+.userlist-table th{
+  background-color: aquamarine;
+  padding: 3px;
+  border: 2px solid black;
+}
+.userlist-table td{
+  background-color: blanchedalmond;
+  padding: 5px;
+  text-align : center;
 }
