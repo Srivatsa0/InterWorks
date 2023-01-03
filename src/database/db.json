@@ -25,6 +25,19 @@
       "city": "Bangalore",
       "pincode": "563114",
       "id": 4
+    },
+    {
+      "firstname": "kavya ",
+      "lastname": "H S",
+      "email": "kavyahs@gmail.com",
+      "contact": "+919164165062",
+      "adddress1": "#82 chikkaankandahalli v&p ,Bangarpet taluk , Kolar district",
+      "address2": "Pipal Tree Pg Near National College Basavangudi Bangalore",
+      "country": "india",
+      "state": "karnataka",
+      "city": "Bangalore",
+      "pincode": "563114",
+      "id": 5
     }
   ]
 }
