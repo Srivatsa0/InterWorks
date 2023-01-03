@@ -41,7 +41,7 @@ function AddData() {
     }
     else
     {
-      fetch("http://localhost:4000/user",
+      fetch("http://localhost:5000/user",
       {
         method:"POST",
         headers : { "Content-Type" : "application/json" },
